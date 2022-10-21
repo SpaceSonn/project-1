@@ -100,7 +100,7 @@ p {
     
 }
 .logos img {
- width: 25%;
+    width: 25%;
 }
 h2 {
     color: #1D3444;
@@ -124,13 +124,13 @@ h2 {
 .card p {
     font-size: 16px;
 }
-.adcard {
+.supcard {
     width: 30%;
     background-color: white;
     border-radius: 20px;
 
 }
-.adhead {
+.suphead {
     display: flex;
     justify-content: space-between;
 }
@@ -147,10 +147,10 @@ h4 {
     line-height: 44px;
 }
 h5 {
-font-size: 24px;
-font-weight: 600;;
+    font-size: 24px;
+    font-weight: 600;;
 }
-.adhead p {
+.suphead p {
     width: 50%;
     font-size: 18px;
     padding-top: 25px;
@@ -162,10 +162,146 @@ font-weight: 600;;
 .card p:last-child {
     color: #F58A07;
 }
-.adcard {
+.supcard {
     padding-left: 15px;
 }
+.exp {
+    display: flex;
 
-
-
-
+}
+.exphead {
+    width: 50%;
+}
+.expcard {
+    display: flex;
+    justify-content: space-between;
+}
+.carder {
+    width: 90%;
+}
+.carder p {
+    font-size: 16px;
+}
+h6 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #f58a07;
+}
+.exp img {
+    border-radius: 20px;
+}
+.service {
+    display: flex;
+    justify-content: space-around;
+    background-color: #edf7ff;
+    border-radius: 20px;
+}
+.serviceleft {
+    width: 50%;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+.tab button {
+    color: rgba(6, 50, 85, 0.3);
+    width: 30%;
+    background-color: #edf7ff;  
+    border-radius: 31px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    border: solid #a8bccc 1px;
+    transition: 0.2s;
+}
+.tab button:hover {
+    color: #F58A07;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.service p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.service p:last-child{
+    color: #F58A07;
+}
+.vac {
+    display: flex;
+    height: 518px;
+}
+.vac img {
+    width: 50%;
+}
+.energy {
+    width: 50%; 
+    background-color: #F58A07;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.energy h2 {
+    color: white;
+    width: 55%
+}
+.energy button {
+    color: #F58A07 ;
+    width: 30%;
+    background-color: white;  
+    border-radius: 31px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 600;
+    border: solid #f58A07 1px;
+}
+.video {
+    display: flex;
+    justify-content: space-between;
+}
+.videoleft {
+    width: 45%;
+}
+.profile h3 {
+    color: #063255;
+}
+.profile {
+    width: 40%;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile p {
+    color: #F58A07;
+}
+.botsec {
+    display: flex;
+    justify-content: space-between; 
+}
+.botcard {
+    border-radius: 20px;
+    background-color: white;
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botcard p {
+    font-size: 16px;
+    width: 90%;
+}
+.botcard img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.botcard p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.botcard p:last-child {
+    color: #F58A07;
+}
