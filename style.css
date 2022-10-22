@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.hnav ul li {
+ul li {
     list-style: none;
 }
 .head button{
@@ -304,4 +304,41 @@ h6 {
 }
 .botcard p:last-child {
     color: #F58A07;
+}
+footer {
+    background-color: #063255;
+    color: white;
+}
+.footer p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.sns {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerleft {
+    width: 30%;
+}
+.footerright {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+}
+.footerbot {
+    width: 100%;
+    display: flex;
+    color: white;
+
 }
