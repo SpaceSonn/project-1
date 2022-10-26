@@ -1,0 +1,29 @@
+.desc {
+    width: 66%;
+    align-content: center;
+    padding-bottom: 150px;
+}
+.top {
+    width: 50%;
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 50px;
+    align-self: flex-start;
+}
+.profile {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.desc p {
+    line-height: 28px;
+}
+.view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.view img {
+    border-radius: 20px;
+}

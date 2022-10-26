@@ -1,0 +1,71 @@
+.bothead h2 {
+    color: #0D1317;
+    padding-top: 80px;
+}
+.botsec {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    height: 1174px;
+}
+.botsec h3 {
+    width: 90%;
+}
+.botcard {
+    border-radius: 20px;
+    background-color: #EDF7FF;
+    width: 30%; 
+    height: 507px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botcard p {
+    font-size: 16px;
+    width: 90%;
+    color: #5b5b5b;
+}
+.botcard img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.botcard p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.botcard p:last-child {
+    color: #F58A07;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 70%;
+}
+.profile {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile img {
+    height: 80%;
+}
+.BlogTop {
+    display: flex;
+    padding-top: 200px;
+}
+.bottom p {
+    width: 80%;
+    line-height: 30px;
+}
+.bottom p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.bottom p:last-child {
+    color: #F58A07;
+}
+.BlogTop img {
+    border-radius: 20px;
+}

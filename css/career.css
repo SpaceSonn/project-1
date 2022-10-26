@@ -1,0 +1,151 @@
+.top {
+    width: 100%;
+    margin-top: 100px;
+}
+p {
+    width: 90%;
+    line-height: 30px;
+}
+.top button {
+    width: 30%;
+    color: white;
+    background-color: #f58A07;  
+    border-radius: 31px;
+    height: 54px;
+    cursor: pointer;
+    font-weight: 600;
+    border: solid white;
+    font-size:  16px;
+    font-family: 'Poppins', sans-serif;
+}
+.careers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.career a {
+    text-decoration: none;
+    color : #f58A07;
+}
+.mixer {
+    position: relative;
+    height: 650px;
+}
+.mixer img {
+    height: 650px;
+    border-radius: 15px;
+}
+.multiple {
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 180px;
+    height: 650px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    border-radius: 15px 0 0 15px;
+}
+.careercard {
+    width : 31%;
+    height: 181px;
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 1px;
+    margin-top: 40px;
+}
+/* bottom */
+h1 {
+    color: #1d3444;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+}
+h3 { 
+    width: 50%;
+    font-size: 24px;
+    width: 100%;
+    font-weight: 500;
+}
+h2 {
+    color: #0d1317;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+p {
+    color: #5b5b5b;
+    font-weight: 500;
+    font-size: 18px;
+}
+.back {
+    background-color: #dceaf5;
+    width: 100%;
+    height: 819px;
+}
+.bothead h2 {
+    color: #0D1317;
+    padding-top: 80px;
+}
+.botsec {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 20px;
+}
+.botsec h3 {
+    width: 90%;
+}
+.botcard {
+    border-radius: 20px;
+    background-color: white;
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botcard p {
+    font-size: 16px;
+    width: 90%;
+}
+.botcard img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.botcard p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.botcard p:last-child {
+    color: #F58A07;
+}
+
+.botsec {
+    display: flex;
+    justify-content: space-between; 
+}
+.botsec h3 {
+    width: 90%;
+}
+.botcard {
+    border-radius: 20px;
+    background-color: white;
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botcard p {
+    font-size: 16px;
+    width: 90%;
+}
+.botcard img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+.botcard p:last-child::after {
+    content: '\2192';
+    color: #F58A07;
+}
+.botcard p:last-child {
+    color: #F58A07;
+}

@@ -1,0 +1,56 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.leftSide {
+    width: 48%;
+}
+.rightSide {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.rightSide p {
+    width: 70%;
+}
+input {
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: white solid;
+    width: 90%;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+input:nth-child(4) {
+    height: 35%;
+}
+.map {
+    display: flex;
+    height: 600px;
+}
+iframe {
+    border-radius: 30px;
+    width: 50%;
+    margin-top: 10px;
+    height: 67%;
+}
+.fill {
+    width: 50%;
+    margin: 0;
+}
+button {
+    margin-top: 30px;
+    width: 20%;
+    height: 54px;
+    color: white;
+    border-radius: 31px;
+    background-color: #f58a07;
+    border: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
